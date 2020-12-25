@@ -2,7 +2,7 @@
 
 FROM ubuntu:20.04
 
-ARG update_source ""
+ARG update_source "none"
 COPY ./ubuntu_update_sources.sh /ubuntu_update_sources.sh
 RUN sh /ubuntu_update_sources.sh
 
